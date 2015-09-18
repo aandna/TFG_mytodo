@@ -7,7 +7,7 @@
  * # removedholadir
  */
 angular.module('mytodoApp')
-  .directive('removedholadir', function () {
+  .directive('removedholadir', function ($compile) {
     return {
       restrict: 'E',
       replace: true,

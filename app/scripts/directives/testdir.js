@@ -7,7 +7,7 @@
  * # testdir
  */
 angular.module('mytodoApp')
-  .directive("testdir", function () {
+  .directive("testdir", function ($compile) {
     return {
       restrict: "AE",
       replace: true,

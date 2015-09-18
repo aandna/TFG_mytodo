@@ -7,7 +7,7 @@
  * # holadir
  */
 angular.module('mytodoApp')
-  .directive('holadir', function () {
+  .directive('holadir', function ($compile) {
     return {
       restrict: 'E',
       replace: true, //es vol substituir el contingut
